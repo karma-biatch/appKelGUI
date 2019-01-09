@@ -34,6 +34,7 @@ public class update extends javax.swing.JInternalFrame {
         initComponents();
         showAdmin();
         txt_id.setVisible(false);
+        setTitle("Update Admin");
     }
     public ArrayList<Kelengkeng> select(){
         ArrayList<Kelengkeng> adminList = new ArrayList<>();

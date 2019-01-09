@@ -29,6 +29,7 @@ public class Update_stock extends javax.swing.JInternalFrame {
         initComponents();
         show_stock();
         this.setLocation(0,0);
+        setTitle("Update Stock");
     }
     
     /**

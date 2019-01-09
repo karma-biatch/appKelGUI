@@ -16,11 +16,13 @@ public class MainFrame extends javax.swing.JFrame {
      */
     public MainFrame() {
         initComponents();
+        setTitle("Main Menu");
     }
     
     public void close(){
         this.setVisible(false);
         this.dispose();
+        
     }
     /**
      * This method is called from within the constructor to initialize the form.

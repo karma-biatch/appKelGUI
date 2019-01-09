@@ -32,6 +32,7 @@ public class add extends javax.swing.JInternalFrame {
     public add() {
         initComponents();
         showAdmin();
+        setTitle("Add Admin");
     }
     public ArrayList<Kelengkeng> select(){
         ArrayList<Kelengkeng> adminList = new ArrayList<>();

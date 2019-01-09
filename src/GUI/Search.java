@@ -31,6 +31,7 @@ public class Search extends javax.swing.JInternalFrame {
     public Search() {
         initComponents();
         this.setLocation(0,0);
+        setTitle("Transaction History");
     }
 
     public ArrayList<Kelengkeng> search(String ValSearch){
@@ -88,6 +89,7 @@ public class Search extends javax.swing.JInternalFrame {
      public void showAllData(){
         ArrayList <Kelengkeng> kelengkeng = showAll();
             DefaultTableModel model = (DefaultTableModel)tbl_search.getModel();
+            model.setRowCount(0);
             Object[] row =new Object [5];
             for(int i=0;i < kelengkeng.size(); i++){
                 row[0] = kelengkeng.get(i).getId();

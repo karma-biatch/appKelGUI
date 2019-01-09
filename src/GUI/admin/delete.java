@@ -32,6 +32,7 @@ public class delete extends javax.swing.JInternalFrame {
     public delete() {
         initComponents();
         showAdmin();
+        setTitle("Delete Admin");
     }
 
     /**

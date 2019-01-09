@@ -39,6 +39,7 @@ public class Transaction extends javax.swing.JInternalFrame {
         transaction();
         AutoCompleteDecorator.decorate(cbx_name);
         this.setLocation(0,0);
+        setTitle("Transaction");
     }
 
     /**

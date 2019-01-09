@@ -25,7 +25,7 @@ public class login extends javax.swing.JFrame {
     public login() {
         initComponents();
         connection = ConnectionConfig.getConnection();
-        
+        setTitle("Login");
     }
     public void close(){
         this.setVisible(false);
